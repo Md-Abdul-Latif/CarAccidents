@@ -11,7 +11,7 @@ Number of accidents and average number of lethal accidents per week per borough.
 > mvn  pacage
 
 #### Submit the project through spark-submit, for example:
-spark-submit \<br>
+spark-submit \<\br>
 --class "accidents.AccidentCache" \<br>
 --master local[*] \<br>
 --deploy-mode client \<br>
