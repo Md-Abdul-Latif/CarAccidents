@@ -7,4 +7,14 @@ Number of accidents and percentage of number of deaths per contributing factor i
 ### Q3
 Number of accidents and average number of lethal accidents per week per borough.
 
+#### Compile the project with maven
+> mvn  pacage
+
+#### Submit the project through spark-submit, for example:
+spark-submit \<br>
+--class "accidents.AccidentCache" \<br>
+--master local[*] \<br>
+--deploy-mode client \<br>
+<jar file> \
+<dataset folder>
 
