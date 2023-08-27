@@ -16,6 +16,6 @@ spark-submit \ <br>
 --master local[*] \ <br>
 --deploy-mode client \ <br>
 jar file \ <br>
-dataset file <br>
+dataset file folder <br>
 
 
