@@ -13,7 +13,7 @@ Number of accidents and average number of lethal accidents per week per borough.
 #### Submit the project through spark-submit, for example:
 spark-submit \ <br>
 --class "accidents.AccidentCache" \ <br>
---master local[*] \<br>
+--master local[*] \ <br>
 --deploy-mode client \ <br>
 <jar file> \ <br>
 <dataset folder>
