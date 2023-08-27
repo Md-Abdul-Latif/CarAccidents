@@ -15,6 +15,7 @@ spark-submit \ <br>
 --class "accidents.AccidentCache" \ <br>
 --master local[*] \ <br>
 --deploy-mode client \ <br>
-<jar file> \ <br>
-<dataset folder>
+jar file \ <br>
+dataset file <br>
+
 
